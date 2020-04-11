@@ -32,6 +32,14 @@ namespace AppCellTypes.Master
         public void GoSwitchCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new SwitchCellPage());
+        }        
+        public void GoViewCellPage(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new ViewCellPage());
+        }
+        public void GoListViewPage(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new ListViewPage());
         }
     }
 }
