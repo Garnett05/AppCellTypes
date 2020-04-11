@@ -10,7 +10,7 @@ namespace AppCellTypes
         {
             InitializeComponent();
 
-            MainPage = new Master.Master();
+            MainPage = new Master.MasterPage();
         }
 
         protected override void OnStart()
