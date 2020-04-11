@@ -11,6 +11,7 @@
             <StackLayout>
                 <Button Text="Text Cell" Clicked="GoTextCellPage" />
                 <Button Text="Image Cell" Clicked="GoImageCellPage" />
+                <Button Text="Entry Cell" Clicked="GoEntryCellPage" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

@@ -25,5 +25,9 @@ namespace AppCellTypes.Master
         {
             Detail = new NavigationPage(new ImageCellPage());
         }
+        public void GoEntryCellPage (object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new EntryCellPage());
+        }
     }
 }
