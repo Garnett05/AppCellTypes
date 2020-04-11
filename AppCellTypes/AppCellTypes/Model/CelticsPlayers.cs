@@ -8,13 +8,6 @@ namespace AppCellTypes.Model
     {
         public string Name { get; set; }
         public string Position { get; set; }
-        public string Photo { get; set; }
-
-        public CelticsPlayers(string name, string position, string photo)
-        {
-            Name = name;
-            Position = position;
-            Photo = photo;
-        }
+        public string Photo { get; set; }                
     }
 }

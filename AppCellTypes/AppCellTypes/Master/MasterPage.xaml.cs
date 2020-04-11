@@ -17,9 +17,13 @@ namespace AppCellTypes.Master
         {
             InitializeComponent();
         }
-        public void GoTextCellPage(object sender, EventArgs args)
+        public void GoTextCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new TextCellPage());
+        }
+        public void GoImageCellPage (object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new ImageCellPage());
         }
     }
 }

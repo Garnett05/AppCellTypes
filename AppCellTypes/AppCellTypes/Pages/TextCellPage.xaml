@@ -9,7 +9,7 @@
         <ListView x:Name="listCellPage">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Position}" TextColor="Black" DetailColor="Green" />
+                    <TextCell Text="{Binding Name}" Detail="{Binding Position}" TextColor="Black" DetailColor="Green" />                    
                     <!-- 
                     **TextCell Properties: **
                     <TextCell Text="TextText" Detail="Detail" TextColor="Green" DetailColor="red" />

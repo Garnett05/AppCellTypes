@@ -10,7 +10,8 @@
         <ContentPage Title="Menu">
             <StackLayout>
                 <Button Text="Text Cell" Clicked="GoTextCellPage" />
-            </StackLayout>            
+                <Button Text="Image Cell" Clicked="GoImageCellPage" />
+            </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>

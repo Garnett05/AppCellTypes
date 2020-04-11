@@ -18,11 +18,11 @@ namespace AppCellTypes.Pages
             InitializeComponent();
 
             List <CelticsPlayers> list = new List<CelticsPlayers>();
-            list.Add(new CelticsPlayers("Kemba Walker", "Point God", "None"));
-            list.Add(new CelticsPlayers("Jaylen Brown", "Shooting Guard", "None"));
-            list.Add(new CelticsPlayers("Jayson Tatum", "Small Foward", "None"));
-            list.Add(new CelticsPlayers("Gordon Hayward", "Small Foward", "None"));
-            list.Add(new CelticsPlayers("Marcus Smart", "Everything", "None"));
+            list.Add(new CelticsPlayers() { Name = "Kemba Walker", Position = "Point God" });
+            list.Add(new CelticsPlayers() { Name = "Jaylen Brown", Position = "Shooting Guard" });
+            list.Add(new CelticsPlayers() { Name = "Jaylen Brown", Position = "Small Foward" });
+            list.Add(new CelticsPlayers() { Name = "Gordon Hayward", Position = "Power Foward" });
+            list.Add(new CelticsPlayers() { Name = "Marcus Smarf", Position = "Everything/Captain" });
 
             listCellPage.ItemsSource = list;
         }
