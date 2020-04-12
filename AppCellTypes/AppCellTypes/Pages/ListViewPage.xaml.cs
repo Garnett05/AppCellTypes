@@ -33,5 +33,17 @@ namespace AppCellTypes.Pages
             CelticsPlayers player = (CelticsPlayers)args.SelectedItem;
             Navigation.PushAsync(new AppCellTypes.Pages.Detail.DetailPage(player));
         }
+        private void InjuryAction (object sender, EventArgs args)
+        {
+            MenuItem button = (MenuItem)sender;
+            CelticsPlayers player = (CelticsPlayers)button.CommandParameter;
+            DisplayAlert("Title: " + player.Name, "Message: " + player.Name + " - " + player.Position, "Ok");
+        }
+        private void SuspendedAction(object sender, EventArgs args)
+        {
+            MenuItem button = (MenuItem)sender;
+            CelticsPlayers player = (CelticsPlayers)button.CommandParameter;
+            DisplayAlert("Title: " + player.Name, "Message: " + player.Name + " - " + player.Position, "Ok");
+        }
     }
 }
