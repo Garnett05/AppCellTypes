@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="AppCellTypes.Pages.ListViewPage">
     <ContentPage.Content>
-        <ListView x:Name="celticPlayers" ItemSelected="ItemSelectedAction">
+        <ListView x:Name="celticPlayers" ItemSelected="ItemSelectedAction" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell Text="{Binding Name}" Detail="{Binding Position}" TextColor="Black" DetailColor="Green" />                    

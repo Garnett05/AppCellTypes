@@ -20,7 +20,7 @@ namespace AppCellTypes.Pages
             List <CelticsPlayers> list = new List<CelticsPlayers>();
             list.Add(new CelticsPlayers() { Name = "Kemba Walker", Position = "Point God" });
             list.Add(new CelticsPlayers() { Name = "Jaylen Brown", Position = "Shooting Guard" });
-            list.Add(new CelticsPlayers() { Name = "Jaylen Brown", Position = "Small Foward" });
+            list.Add(new CelticsPlayers() { Name = "Jayson Tatum", Position = "Small Foward" });
             list.Add(new CelticsPlayers() { Name = "Gordon Hayward", Position = "Power Foward" });
             list.Add(new CelticsPlayers() { Name = "Marcus Smarf", Position = "Everything/Captain" });
 
