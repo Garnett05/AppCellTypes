@@ -17,6 +17,7 @@
                 <Button Text="View Cell" Clicked="GoViewCellPage" />
                 <Label Text="Components" />
                 <Button Text="List View" Clicked="GoListViewPage" />
+                <Button Text="List View 2" Clicked="GoListViewPage2" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

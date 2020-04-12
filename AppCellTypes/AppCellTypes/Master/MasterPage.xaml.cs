@@ -41,5 +41,9 @@ namespace AppCellTypes.Master
         {
             Detail = new NavigationPage(new ListViewPage());
         }
+        public void GoListViewPage2(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new ListViewPage2());
+        }
     }
 }
