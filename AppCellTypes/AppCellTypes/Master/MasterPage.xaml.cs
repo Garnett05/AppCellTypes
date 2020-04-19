@@ -20,30 +20,37 @@ namespace AppCellTypes.Master
         public void GoTextCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new TextCellPage());
+            IsPresented = false;
         }
         public void GoImageCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new ImageCellPage());
+            IsPresented = false;
         }
         public void GoEntryCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new EntryCellPage());
+            IsPresented = false;
         }
         public void GoSwitchCellPage (object sender, EventArgs args)
         {
             Detail = new NavigationPage(new SwitchCellPage());
+            IsPresented = false;
         }        
         public void GoViewCellPage(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new ViewCellPage());
+            IsPresented = false;
         }
         public void GoListViewPage(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new ListViewPage());
+            IsPresented = false;
         }
         public void GoListViewPage2(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new ListViewPage2());
+            IsPresented = false;
         }
     }
 }
